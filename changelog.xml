@@ -16,15 +16,4 @@
             <column name="active" type="boolean" defaultValueBoolean="true"/>
         </createTable>
     </changeSet>
-  <changeSet id="2" author="bob">
-        <createTable tableName="departmentnew">
-            <column name="id" type="int">
-                <constraints primaryKey="true" nullable="false"/>
-            </column>
-            <column name="name" type="varchar(50)">
-                <constraints nullable="false"/>
-            </column>
-            <column name="active" type="boolean" defaultValueBoolean="true"/>
-        </createTable>
-    </changeSet>
 </databaseChangeLog>
