@@ -27,4 +27,15 @@
             <column name="active" type="boolean" defaultValueBoolean="true"/>
         </createTable>
     </changeSet>
+  <changeSet id="5" author="bob">
+        <createTable tableName="gary">
+            <column name="id" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="active" type="boolean" defaultValueBoolean="true"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
